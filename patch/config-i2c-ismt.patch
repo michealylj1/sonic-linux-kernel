@@ -1,0 +1,16 @@
+diff --git a/debian/build/build_amd64_none_amd64/.config b/debian/build/build_amd64_none_amd64/.config
+index 16f80c2..6cdcd57 100644
+--- a/debian/build/build_amd64_none_amd64/.config
++++ b/debian/build/build_amd64_none_amd64/.config
+@@ -3596,9 +3596,9 @@ CONFIG_I2C_ALI15X3=m
+ CONFIG_I2C_AMD756=m
+ CONFIG_I2C_AMD756_S4882=m
+ CONFIG_I2C_AMD8111=m
+-CONFIG_I2C_I801=m
++CONFIG_I2C_I801=y
+ CONFIG_I2C_ISCH=m
+-CONFIG_I2C_ISMT=m
++CONFIG_I2C_ISMT=y
+ CONFIG_I2C_PIIX4=m
+ CONFIG_I2C_NFORCE2=m
+ CONFIG_I2C_NFORCE2_S4985=m
